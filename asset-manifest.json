@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/SpeedGolfWebsite/static/css/main.0add8e22.chunk.css",
+    "main.js": "/SpeedGolfWebsite/static/js/main.a0a35875.chunk.js",
+    "main.js.map": "/SpeedGolfWebsite/static/js/main.a0a35875.chunk.js.map",
+    "runtime-main.js": "/SpeedGolfWebsite/static/js/runtime-main.b1502102.js",
+    "runtime-main.js.map": "/SpeedGolfWebsite/static/js/runtime-main.b1502102.js.map",
+    "static/css/2.3c321deb.chunk.css": "/SpeedGolfWebsite/static/css/2.3c321deb.chunk.css",
+    "static/js/2.3dca4e83.chunk.js": "/SpeedGolfWebsite/static/js/2.3dca4e83.chunk.js",
+    "static/js/2.3dca4e83.chunk.js.map": "/SpeedGolfWebsite/static/js/2.3dca4e83.chunk.js.map",
+    "index.html": "/SpeedGolfWebsite/index.html",
+    "precache-manifest.d07769c51da67dd917499dcae1b09365.js": "/SpeedGolfWebsite/precache-manifest.d07769c51da67dd917499dcae1b09365.js",
+    "service-worker.js": "/SpeedGolfWebsite/service-worker.js",
+    "static/css/2.3c321deb.chunk.css.map": "/SpeedGolfWebsite/static/css/2.3c321deb.chunk.css.map",
+    "static/css/main.0add8e22.chunk.css.map": "/SpeedGolfWebsite/static/css/main.0add8e22.chunk.css.map",
+    "static/js/2.3dca4e83.chunk.js.LICENSE.txt": "/SpeedGolfWebsite/static/js/2.3dca4e83.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/SpeedGolfWebsite/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b1502102.js",
+    "static/css/2.3c321deb.chunk.css",
+    "static/js/2.3dca4e83.chunk.js",
+    "static/css/main.0add8e22.chunk.css",
+    "static/js/main.a0a35875.chunk.js"
+  ]
+}
