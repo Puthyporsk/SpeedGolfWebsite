@@ -1,45 +1,38 @@
 {
-  "name": "code-ch18-eb",
-  "version": "1.0.0",
-  "description": "Testing instructions for deployment to EB",
-  "main": "server.compiled.js",
-"type": "module",
-  "homepage": "https://Puthyporsk.github.io/SpeedGolfWebsite",
-  "scripts": {
-    "start": "node server.compiled.js",
-    "build": "babel server.js --out-file server.compiled.js",
-    "dev": "nodemon --exec node server.compiled.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d ./client/build"
-  },
-  "author": "C Hundhausen",
-  "license": "ISC",
+  "name": "speedgolf-react",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "autosuggest-highlight": "^3.1.1",
-    "body-parser": "^1.19.0",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "express-session": "^1.17.1",
-    "mongoose": "^5.10.9",
-    "passport": "^0.4.1",
-    "passport-github": "^1.1.0",
-    "passport-google-oauth2": "^0.2.0",
-    "passport-local": "^1.0.0",
-    "path": "^0.12.7",
-    "react-autosuggest": "^10.0.3",
-    "react-bootstrap": "^1.4.0",
-    "react-tooltip": "^4.2.10",
-    "regenerator-runtime": "^0.13.7",
-    "testcafe": "^1.9.4",
-    "testcafe-react-selectors": "^4.1.0"
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.0",
+    "@testing-library/user-event": "^7.2.1",
+    "bootstrap": "^4.4.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "3.3.1"
   },
-  "devDependencies": {
-    "@babel/cli": "^7.12.1",
-    "@babel/core": "^7.12.1",
-    "@babel/node": "^7.12.1",
-    "@babel/preset-env": "^7.12.1",
-    "gh-pages": "^3.1.0",
-    "nodemon": "^2.0.5"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
